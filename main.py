@@ -13,8 +13,6 @@ tim.color("white")
 tim.shape("square")
 screen.clear()
 
-
-
 screen.setup(width=600, height=600)
 screen.title("My Snake Game")
 screen.tracer(0)

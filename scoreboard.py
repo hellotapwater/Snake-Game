@@ -2,6 +2,7 @@ from turtle import Turtle
 ALLIGNEMENT = "center"
 FONT = ("Courier", 24, "normal")
 
+
 with open("data.txt", "r") as high_score:
     highscore = int(high_score.read())
     print(highscore)
